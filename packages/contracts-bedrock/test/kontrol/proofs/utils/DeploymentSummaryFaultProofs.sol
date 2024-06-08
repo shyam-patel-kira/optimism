@@ -26,7 +26,7 @@ contract DeploymentSummaryFaultProofs is DeploymentSummaryFaultProofsCode {
     address internal constant l1StandardBridgeAddress = 0xb7900B27Be8f0E0fF65d1C3A4671e1220437dd2b;
     address internal constant l1StandardBridgeProxyAddress = 0xDeF3bca8c80064589E6787477FFa7Dd616B5574F;
     address internal constant mipsAddress = 0x1C0e3B8e58dd91536Caf37a6009536255A7816a6;
-    address internal constant optimismPortal2Address = 0xfcbb237388CaF5b08175C9927a37aB6450acd535;
+    address internal constant optimismPortal2Address = 0x542e5F5d3934b6A8A8B4219cbc99D3D87a7137E1;
     address internal constant optimismPortalProxyAddress = 0x978e3286EB805934215a88694d80b09aDed68D90;
     address internal constant preimageOracleAddress = 0x3bd7E801E51d48c5d94Ea68e8B801DFFC275De75;
     address internal constant protocolVersionsAddress = 0xfbfD64a6C0257F613feFCe050Aa30ecC3E3d7C3F;
@@ -610,7 +610,7 @@ contract DeploymentSummaryFaultProofs is DeploymentSummaryFaultProofsCode {
         value = hex"000000000000000000000000000000000000000000000000000000000000000d";
         vm.store(systemOwnerSafeAddress, slot, value);
         slot = hex"360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc";
-        value = hex"000000000000000000000000fcbb237388caf5b08175c9927a37ab6450acd535";
+        value = hex"000000000000000000000000542e5f5d3934b6a8a8b4219cbc99d3d87a7137e1";
         vm.store(optimismPortalProxyAddress, slot, value);
         slot = hex"0000000000000000000000000000000000000000000000000000000000000000";
         value = hex"0000000000000000000000000000000000000000000000000000000000000001";
