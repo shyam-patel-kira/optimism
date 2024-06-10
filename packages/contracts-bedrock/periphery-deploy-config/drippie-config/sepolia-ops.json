@@ -43,19 +43,6 @@
       "04__value": 1000000000000000000,
       "05__interval": 86400,
       "06__data": "0x0000000000000000000000000Cd438409d5Cac9D2E076Ac7Bd0Bf2377E99BB6e4"
-    },
-    {
-      "00__name": "secrets_v2",
-      "01__dripcheck": "CheckSecrets",
-      "02__checkparams": {
-        "00__delay": 43200,
-        "01__secretHashMustExist": "0x565fa8c7daa859353b5b328b97b12c7d66c5832b2a24d4e0f739a65ad266a46f",
-        "02__secretHashMustNotExist": "0xbc362b01d69a85dff1793803dde67df1f338f37a36fdc73dddf27283d215e614"
-      },
-      "03__recipient": "0xCd438409d5Cac9D2E076Ac7Bd0Bf2377E99BB6e4",
-      "04__value": 1000000000000000000,
-      "05__interval": 3600,
-      "06__data": ""
     }
   ]
 }
